@@ -10,7 +10,7 @@
             aria-label="IES Jakarta"
           >
             <img
-              src="~/assets/IES-Logo-LightGray.png"
+              src="~assets/graphics/IES-logoOptimized.svg"
               alt="IES Jakarta (IESJakarta)"
             />
           </a>
@@ -133,8 +133,6 @@
 </template>
 <!-- Above is where bottom text is. -->
 
-
-
 <!-- This script gets the JSON, breaks out the links from the colors 
 and makes them useful for the page. -->
 
@@ -148,7 +146,7 @@ export default {
   },
   async fetch() {
     this.links = await fetch(
-      `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page_-_Comming_soon`
+      `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page`
     ).then((res) => res.json())
   },
 
@@ -290,8 +288,6 @@ img {
 }
 </style>
 
-
-
 <!-- this is not in use 
 <script>
 export default {
@@ -303,7 +299,7 @@ export default {
 },
 async fetch() {
     this.links = await fetch(
-        `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page_-_Comming_soon`).then(res => res.json())
+        `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page`).then(res => res.json())
   },
 }
 </script> -->
