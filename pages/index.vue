@@ -303,7 +303,7 @@ export default {
 },
 async fetch() {
     this.links = await fetch(
-        `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page_-_Comming_soon`).then(res => res.json())
+        `https://api.steinhq.com/v1/storages/6166a6bb8d29ba2379f93001/IES_Links_Page`).then(res => res.json())
   },
 }
 </script> -->
