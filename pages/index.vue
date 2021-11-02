@@ -181,7 +181,7 @@ a {
 h1 {
   margin: 0px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   text-overflow: ellipsis;
   max-width: 100%;
@@ -278,13 +278,13 @@ h2 {
     background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 }
 .afill {
-  padding: 16px;
+  padding: 18px;
 }
 
 img {
   max-width: 96px;
   height: auto;
-  padding: 6px;
+  padding: 14px 6px 2px;
 }
 </style>
 
