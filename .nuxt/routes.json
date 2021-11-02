@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Xindex",
+    "path": "/Xindex",
+    "component": "/home/msrody/Workspace/cloudflareW/IESLinksPageNUXT/pages/Xindex.vue",
+    "chunkName": "pages/Xindex",
+    "_name": "_ec1ed9e6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/msrody/Workspace/cloudflareW/IESLinksPageNUXT/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_f91d2de2"
+  }
+]
