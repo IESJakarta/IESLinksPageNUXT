@@ -195,6 +195,9 @@ h2 {
   font-stretch: condensed;
   font-size: 16px;
 }
+a {
+  color:#ffffff
+}
 
 .topgrid {
   display: grid;
