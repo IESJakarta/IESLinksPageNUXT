@@ -190,7 +190,7 @@ h2 {
   margin: 0px;
   margin-bottom: 4px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   font-stretch: condensed;
   font-size: 16px;
@@ -212,6 +212,7 @@ a {
   margin-left: 12px;
   margin-right: 12px;
   max-width: 100%;
+  padding: 3px;
 }
 
 .innercolumns {
