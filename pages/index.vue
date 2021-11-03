@@ -176,7 +176,7 @@ body {
 
 h1 {
   margin: 0px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.5;
   text-overflow: ellipsis;
