@@ -106,9 +106,9 @@
     <!-- Below is where the links start -->
     <div class="grid-container">
       <div v-for="link in showLinks" :key="link.Box_Text">
-        <a :href="link.Link" class="boxtext" target="_blank" rel="noopener">
+        <a :href="link.Link + '?' + current()" class="boxtext" target="_blank" rel="noopener">
           <div class="afill">
-            {{ link.Box_Text }}
+            {{ link.Box_Text }} 
           </div>
         </a>
       </div>
@@ -158,6 +158,13 @@ export default {
       return this.links.filter((item) => item.Show === 'C')
     },
   },
+    methods: {
+    current() {
+      const ms = Date.now();
+      const current = ms.toString();
+      return current;
+    }
+  }
 }
 </script>
 
