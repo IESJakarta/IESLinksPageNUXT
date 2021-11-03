@@ -174,10 +174,6 @@ body {
   background-color: #3d3b3c;
 }
 
-a {
-  color: #ffffff;
-}
-
 h1 {
   margin: 0px;
   font-weight: 700;
@@ -186,7 +182,6 @@ h1 {
   text-overflow: ellipsis;
   max-width: 100%;
   font-stretch: condensed;
-  white-space: nowrap;
   overflow: hidden;
 }
 
