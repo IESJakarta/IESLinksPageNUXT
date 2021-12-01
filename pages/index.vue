@@ -177,18 +177,18 @@ body {
   line-height: 1.2;
   font-size: 16px;
   font-stretch: condensed;
-  font-weight: 400;
+  font-weight: 600;
   background-color: #3d3b3c;
 }
 
 h1 {
   margin: 0px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.5;
   text-overflow: ellipsis;
   max-width: 100%;
-  font-stretch: condensed;
+  font-stretch: semi-condensed;
   overflow: hidden;
 }
 
@@ -197,9 +197,9 @@ h2 {
   margin: 0px;
   margin-bottom: 4px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
-  font-stretch: condensed;
+  font-stretch: semi-condensed;
   font-size: 16px;
 }
 a {
