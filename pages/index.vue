@@ -169,10 +169,10 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   line-height: 1.2;
   font-size: 16px;
