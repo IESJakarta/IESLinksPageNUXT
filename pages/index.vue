@@ -10,7 +10,7 @@
             aria-label="IES Jakarta"
           >
             <img
-              src="~assets/graphics/IES-logoOptimized.svg"
+              src="~assets/graphics/IES-logoLightGray.svg"
               alt="IES Jakarta (IESJakarta)"
             />
           </a>
