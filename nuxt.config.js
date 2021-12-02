@@ -37,6 +37,12 @@ export default {
       { rel: 'manifest', href: '/favicon_package_v0.16/site.webmanifest' },
       { rel: 'mask-icon', href: '/favicon_package_v0.16/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel:'preconnect' href='https://fonts.googleapis.com',
+        rel: 'preconnect' href='https://fonts.gstatic.com' crossorigin,
+        href:'https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap', 
+        rel:'stylesheet
+      }
     ]
   },
 
